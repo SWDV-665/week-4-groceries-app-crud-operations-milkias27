@@ -66,7 +66,10 @@ export class HomePage {
           placeholder: 'Item Name'
         },
         {
+          type : 'number',
           name: 'quantity',
+          min : 1,
+          max : 20,
           placeholder: 'Item quantity'
         },
       ],
